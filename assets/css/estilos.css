@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image: url(../img/banner-1.jpeg);
+	background-position: center center;
+	background-size: 100% auto;
+	height: 300px;
+	padding: 0 10%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+header span {
+	font-size: 3rem;
+	color:white;
+}
+
+header a{
+	position: relative;
+	top:28px;
+}
+
+main {
+	width: 80%;
+	margin: 0 10%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+#horoscopo {
+	grid-column: span 2;
+}
+
+main section {
+	margin: 0 !important;
+}
+
