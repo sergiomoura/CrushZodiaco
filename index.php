@@ -4,6 +4,7 @@
 	$pos = $_GET['pos'];
 	// echo "A posição pedida é $pos";
 	// die();
+	
 
 	$signos = [];
 	$signos[] =	'Áries';
