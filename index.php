@@ -1,10 +1,10 @@
 <?php
-
+	// MAIS UMA ALTERAÇÃO PARA MARCAR O ARQUIVO COMO MODIFICADO!!!
 	// print_r($_GET);
 	$pos = $_GET['pos'];
 	// echo "A posição pedida é $pos";
 	// die();
-	
+
 
 	$signos = [];
 	$signos[] =	'Áries';
